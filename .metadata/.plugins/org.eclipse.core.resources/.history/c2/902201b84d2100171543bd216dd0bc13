@@ -14,7 +14,7 @@ public class Omk_regstaff {
 		Thread.sleep(1000);
 		driver.get("http://omk.herokuapp.com/register");
 		driver.findElement(By.id("name")).sendKeys("kishore");
-		driver.findElement(By.id("email")).sendKeys("MGorti@staff.com");
+		driver.findElement(By.id("email")).sendKeys("Kgorthi@staff.com");
 		driver.findElement(By.id("password")).sendKeys("121212");
 		driver.findElement(By.id("password-confirm")).sendKeys("121212");
 		driver.findElement(By.xpath("//*[@value='staff']")).click();
